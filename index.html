@@ -1,13 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 	<meta charset="UTF-8">
 	<title>Offline</title>
 </head>
 <body>
-	<form action=""></form>
+	<form action="/p/probando.php" method="post" name="form">
+		<div>
+			<label for="text1">Text 1</label>
+			<input type="text" name="text1" id="text1">
+		</div>
 
+		<div>
+			<label for="text2">Text 2</label>
+			<input type="text" name="text2" id="text2">
+		</div>
 
+		<div>
+			<label for="text3">Text 3</label>
+			<input type="text" name="text3" id="text3">
+		</div>
+
+		<p>
+			<button type="submit" name="btnEnviar">
+				Enviar
+			</button>
+		</p>
+	</form>
+	<div id="respuesta"></div>
 	<script src="js/jquery-1.11.1.min.js"></script>
 	<script src="js/appOffline.js"></script>
 	<script src="js/appDemo.js"></script>
