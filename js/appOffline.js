@@ -178,3 +178,7 @@ var appOffline = {
         });
     }
 };
+
+$(document).ready(function(){
+    return appOffline.ini();
+});
